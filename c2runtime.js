@@ -28919,7 +28919,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Multiplayer.prototype.cnds.OnSignallingConnected,
 	cr.plugins_.Multiplayer.prototype.acts.SignallingLogin,
 	cr.plugins_.Multiplayer.prototype.cnds.OnSignallingLoggedIn,
-	cr.plugins_.Multiplayer.prototype.acts.SignallingJoinRoom,
+	cr.plugins_.Multiplayer.prototype.acts.SignallingAutoJoinRoom,
 	cr.plugins_.Multiplayer.prototype.cnds.OnSignallingJoinedRoom,
 	cr.plugins_.Multiplayer.prototype.cnds.IsHost,
 	cr.plugins_.Multiplayer.prototype.acts.AssociateObjectWithPeer,
